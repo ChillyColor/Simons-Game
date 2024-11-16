@@ -1,0 +1,73 @@
+/*Simon.htm*/
+#level_title{
+    text-align: center;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+
+}
+.green{
+    background-color: green;
+
+}
+.yellow{
+    background-color: yellow;
+
+}
+.row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+}
+.container{
+    display:flex;
+    flex-direction:column ;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    height:60vh
+}
+.btn{
+    border:.6rem solid black;
+    border-radius: 1.5rem
+}
+.s{
+    height:11rem;
+    width:11rem;
+    cursor:pointer;
+}
+h1{
+    cursor:pointer;
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size:6rem;
+    color:white
+
+}
+.game-over{
+    background-color: red;
+    opacity:0.6;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

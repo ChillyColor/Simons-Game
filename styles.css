@@ -1,0 +1,98 @@
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    gap:100px;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h1{
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 10rem;
+    color:white
+
+    
+}
+p{
+    
+    font-size:1.75rem;
+}
+.menu{
+    display:flex;
+    gap:125px;
+}
+.start{
+    text-align: center ;
+    background-color: #F2E5BF;
+    width:500px;
+    border-radius: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.rules{
+    text-align: center;
+    background-color: #F2E5BF;
+    width:500px;
+    border-radius: 12px;
+    transition:0.5s;
+    cursor: pointer;
+
+}
+.start:hover{
+    background:#7A0000;
+    color:white;
+  -webkit-transform:rotate(-1deg);
+    transform:rotate(-2deg);
+    transition:0.5s
+}
+.rules:hover{
+    background:#7A0000;
+    color:white;
+  -webkit-transform:rotate(-1deg);
+    transform:rotate(-2deg);
+    transition:0.5s;
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100vh;
+}
+.text{
+    font-size: 2rem;
+    text-align: center;
+
+}
+@media (max-width:400px){
+    h1{
+        font-size: 4rem;
+        text-align: center
+    }
+}
+
+
+
+
