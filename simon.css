@@ -71,3 +71,13 @@ body {
 		background-position: 0% 50%;
 	}
 }
+@media( max-width:500px){
+    h1{
+        font-size: 4rem;
+    }
+    .s{
+        height:7rem;
+        width:7rem;
+;
+    }
+}
